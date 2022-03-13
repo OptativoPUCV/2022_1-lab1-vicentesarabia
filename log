@@ -261,3 +261,16 @@ Sun Mar 13 19:40:29 HSP 2022:
  tests:  1|6
 total_score: 10/70
 1a6ee0d
+Sun Mar 13 19:41:48 HSP 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function 'sumaNultimos':
+exercises.c:44:11: error: 'suma' redeclared as different kind of symbol
+     int * suma = 0;
+           ^~~~
+exercises.c:41:48: note: previous definition of 'suma' was here
+ void sumaNultimos(int a[], int n, int m, int * suma) {
+                                          ~~~~~~^~~~
+Compilation failed
+983f712
