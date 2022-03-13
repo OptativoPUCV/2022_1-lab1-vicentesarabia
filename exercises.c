@@ -44,8 +44,9 @@ void sumaNultimos(int a[], int n, int m, int * suma) {
    int vari;
    (*suma)=0;
    vari= n-m;
+   vari+=1;
 
-   for (i=vari+1;vari<n;)
+   for (i=vari;vari<n;)
    {
       (*suma)+=a[i];
       vari++;
