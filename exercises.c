@@ -40,15 +40,15 @@ Utilice la función sumaN.
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
 
-   int i;
-   int vari;
-   (*suma)=0;
-   vari= n-m;
+   //int i;
+   //int vari;
+   //(*suma)=0;
+   //vari= n-m;
 
-   for (i=vari-1;vari<n;i++)
-   {
-      (*suma)=a[i]+(*suma);
-   }
+   //for (i=vari-1;vari<n;i++)
+   //{
+      //(*suma)=a[i]+(*suma);
+   //}
 
 }
 
