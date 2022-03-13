@@ -274,3 +274,16 @@ exercises.c:41:48: note: previous definition of 'suma' was here
                                           ~~~~~~^~~~
 Compilation failed
 983f712
+Sun Mar 13 19:45:46 HSP 2022: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+exercises.c: In function 'sumaNultimos':
+exercises.c:44:11: error: 'suma' redeclared as different kind of symbol
+     int (*suma) = 0;
+           ^~~~
+exercises.c:41:48: note: previous definition of 'suma' was here
+ void sumaNultimos(int a[], int n, int m, int * suma) {
+                                          ~~~~~~^~~~
+Compilation failed
+99c2b9e
