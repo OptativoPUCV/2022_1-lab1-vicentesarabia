@@ -64,13 +64,14 @@ typedef struct {
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
 
-   Persona vector;
-   strcpy(vector.nombre , nombre);
-   strcpy(vector.rut , rut);
-   vector.edad = edad;
+   Persona* vector;
+   strcpy(vector->nombre , nombre);
+   strcpy(vector->rut , rut);
+   vector->edad = edad;
 
-   return &vector;
+   return vector;
 }
+
 
 /*
 Ejercicio 4.

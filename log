@@ -328,3 +328,14 @@ exercises.c:72:11: error: function returns address of local variable [-Werror=re
 cc1.exe: all warnings being treated as errors
 Compilation failed
 3e1e595
+Sun Mar 13 20:54:06 HSP 2022: 
+ exercises.c | 11 ++++++-----
+ 1 file changed, 6 insertions(+), 5 deletions(-)
+In file included from test.c:5:
+test.c: In function 'crearPersona':
+exercises.c:68:17: error: 'vector' is used uninitialized in this function [-Werror=uninitialized]
+    strcpy(vector->nombre , nombre);
+           ~~~~~~^~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+ce20cfb
