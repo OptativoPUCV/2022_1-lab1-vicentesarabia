@@ -339,3 +339,12 @@ exercises.c:68:17: error: 'vector' is used uninitialized in this function [-Werr
 cc1.exe: all warnings being treated as errors
 Compilation failed
 ce20cfb
+Sun Mar 13 21:03:36 HSP 2022: 
+In file included from test.c:5:
+test.c: In function 'crearPersona':
+exercises.c:68:17: error: 'vector' is used uninitialized in this function [-Werror=uninitialized]
+    strcpy(vector->nombre , nombre);
+           ~~~~~~^~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+4936867
